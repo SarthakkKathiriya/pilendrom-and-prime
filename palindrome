@@ -1,0 +1,10 @@
+let str='ada';
+let r='';
+for(let i=str.length;i>=0;i--){
+  r+=str[i];
+}
+if(r==str){
+  console.log('Yes');
+}else{
+  console.log('No');
+}
